@@ -1,0 +1,796 @@
+@font-face{
+    font-family: 'zen_dots';
+    src: url('Zen_Dots/ZenDots-Regular.ttf') 
+}
+
+@font-face{
+    font-family: 'Euclid';
+    src: url('/euclid-circular-a-cufonfonts/Euclid\ Circular\ A\ Regular.ttf')
+}
+ 
+@font-face{
+    font-family: 'Argithea';
+    src: url('/Argithea-Demo.ttf')
+} 
+
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+header{
+    display: flex;
+    font-family: 'zen dots';
+}
+
+.head-1{
+    font-family: 'zen dots';
+    margin-right: 860px;
+}
+
+ .head-2{
+    margin: 0px;
+    display: flex;
+    font-family: 'zen dots';
+    margin: 0;
+}
+
+#vec-1{
+    background-color: white;
+    border-radius:50%;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 25px 0 0;
+}
+
+.vec-1{
+    margin: 2px 0 0 6px;
+}
+
+#sideLink ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-family: zen_dots;
+    gap: 20px;
+}
+
+#sideLink ul li{
+    font-family: zen_dots;
+}
+
+#sideLink ul li a{
+    font-family: zen_dots;
+    font-size: 1rem;
+}
+
+#dropDown{
+    width: 400px;
+    display: none;
+    position: absolute;
+    margin: 2rem 1rem 0 0;
+    right: 0;
+    padding: 20px 30px;
+    background-color: #eeeeee;
+    border: 1px solid;
+}
+
+#dropDown p#dropDownH{
+    font-family: zen_dots;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+#dropDown .p{
+    display: flex;
+    text-align: center;
+    margin: 4rem 2rem 3rem 3rem;
+}
+
+#textCont{
+    text-align: left;
+    font-family: 'Euclid';
+}
+
+#textCont p:nth-child(1){
+    font-size: 1.2rem;
+}
+
+#textCont p:nth-child(2){
+    font-size: .9rem;
+}
+
+#closeBtn{
+    font-size: 1.3rem;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+}
+
+#imgCont,#imgCont1,#imgCont2,#imgCont3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    cursor: pointer;
+    font-size: .6rem;
+}
+
+#imgCont span,#imgCont1 span,#imgCont2 span,#imgCont3 span{
+    font-size: 1.2rem;
+}
+
+#imgCont img, #imgCont1 img,#imgCont2 img, #imgCont3 img{
+    height: 40px;
+}
+
+
+.dropdown-1 {
+  display: none;
+}
+
+#hr1{
+    display: flex;
+    padding: 0;
+}
+
+.hr-none{
+    display: flex;
+}
+
+    .dot{
+    margin: 5px 50px 10px 50px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color:black;
+    }
+
+#R2, #R3{
+    width: 134px;
+    height: 160px;
+}
+
+#R1{
+    width: 450px;
+    height: 542px;
+    margin-left: 5%;
+    margin-top: -230px;
+    margin-bottom: 100px;
+}
+
+#R2{
+    margin-bottom: 12%;
+    margin-left: 17%;
+}
+
+#R3{
+    margin-bottom: 180px;
+    margin-left: 10%;
+}
+
+.bod-1{
+    font-family: zen dots;
+    font-size: 30px;
+    font-weight: 1000;
+    width: 900px;
+    text-align: center;
+    margin-left: 230px;
+}
+
+.h1{
+    font-family: 'Argithea DEMO';
+    font-weight: 400;
+    font-size: 255px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+button{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px 5px 5px 5px;
+    width: 10%;
+    height: 50px;
+    margin:50px 0 50px 0;
+    text-align: center;
+    margin-left: 45%;
+}
+
+.button{
+        font-family: 'zen dots';
+        background: linear-gradient(92.22deg, #AD00FF 0.51%, #00C2FF 55.21%);
+        -webkit-background-clip: text;
+        color: transparent;
+}
+
+.kol-h{
+    font-family: zen dots;
+    font-size: 56px;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.rune-kol{
+    font-family: 'Euclid';
+    font-weight: 400;
+    font-size: 40px;
+    color: #86a3ac;
+    line-height: 51px;
+    margin: 0 25%;
+    width: 50%;
+    text-align: center;
+}
+
+#kol-24{
+        width: 16.6%;
+        background-color:  rgba(0, 0, 0, 0.05);
+        position: relative;
+}
+
+.rune-kol-24 .hr-none{
+    display: flex;
+}
+
+.rune-kol-25 .hr-none{
+    display: flex;
+}
+
+.rune-kol-25, .rune-kol-24{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+#s-rune{
+    width: 137px;
+    height: 163px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#R4{
+    width: 425px;
+    height: 510px;
+    margin-left: 35%; 
+    margin-top: -300px;
+    margin-bottom: 600px;
+}
+
+.sub{
+    font-family: 'Euclid circular A';
+    font-size: 30px;
+    color: #86a3ac;
+    width: 350px;
+    margin-top: 200px;
+}
+
+#sub-1{
+    margin-left: 5%;
+}
+
+#sub-2{
+    margin-left: 70%;
+    margin-top: -1000px;
+    margin-bottom: 300px;
+}
+
+.FAQ-h{
+    font-family: zen dots;
+    font-size: 56px;
+    font-weight: 1000;
+    width: 600px;
+    margin: 50px 5%;
+    padding: 0%;
+}
+
+.FQ{
+    font-family: 'Euclid circular A';
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.hf{
+    opacity: 0.7
+}
+
+#hr1, #hr2, #hr3{
+    font-family: 'Euclid circular A';
+    display: flex;
+    font-size: smaller;
+    margin: 4px 0 4px 0;
+}
+
+#hr3{
+    padding: 0 1%;
+}
+
+#hr2{
+    word-spacing: 6rem;
+    padding: 0 5rem;
+}
+
+#hr1{
+    padding: 0 1%;
+}
+
+#hr1 .dot{
+    margin: 5px 40px 0 40px;
+}
+
+
+#faq1, #faq2, #faq3, #faq4, #faq5{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20px
+}
+
+.FAQ{
+    margin: 60px 5% 0 10%;
+    width: 100%;
+    font-size: px;
+    font-family: 'Euclid circular A';
+}
+
+.FAQ hr{
+    opacity: 0.5;
+    margin: 20px 0;
+}
+
+footer{
+    display: flex;
+    font-size: 20px;
+    gap: 50px;
+    margin: 0 15.5px 0 15.5px;
+    font-family: 'zen dots';
+    padding: 0;
+}
+
+.f1{
+    margin: 3px 0 0 0px;
+}
+
+.f2{
+    margin: -25px 0 3px 1000px;
+    display: flex;
+    gap: 20px;
+    font-family: 'Euclid circular A';
+}
+
+    hr{
+        width: 100%;
+    }
+
+
+
+@media (max-width: 414px) {
+
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    header{
+        display: flex;
+        margin: 0px;
+    }
+    
+    .head-1{
+        font-family: 'zen dots';
+        margin-right: 45rem;
+    }
+
+    .head-2{
+        display: none;
+    }
+    
+    
+   .container {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 2px;
+    background-color: #333;
+    margin: 3px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-3px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-2px, -6px);
+  }
+
+    #sideLink{
+        margin: 0;
+    }
+
+    #dropDown{
+        margin-right: 3rem;
+    }
+
+    .h1{
+        margin: 0 0 0 -5%;
+        font-size: 11rem;
+        text-align:  center;
+        justify-content: center;
+        padding: 0%;
+    }
+
+    #hr1{
+        margin: 0 7.5%;
+    }
+
+    #hr2{
+        display: flex;
+        margin: 0 4%;
+        padding: 0;
+    }
+    
+    #hr3{
+        display: flex;
+        margin: 0 9%;
+        padding: 0;
+    }
+
+    #R1{
+        width: 22rem;
+        height: 27rem;
+        margin-top: -15.5%;
+        margin-bottom: 50px;
+    }
+
+    #R2{
+        width: 10rem;
+        height: 12rem;
+        margin-top: 0px;
+        margin-left: 8%;
+        margin-bottom: 100px
+    }
+
+    #R3{
+        width: 9rem;
+        height: 11rem;
+        margin: 0 3% 12% 5%;
+    }
+
+    .bod-1{
+        justify-content: center;
+        margin: 0rem;
+        text-align: center;
+    }
+
+    button{
+        justify-content: center;
+        width: 30%;
+        height: 4rem;
+        margin: 2rem 35%;
+        padding: 0;
+    }
+
+    .kol-h{
+        margin: 3rem 0 3rem 0;
+    }
+
+    #kol-24{
+        width: 40%;
+        height: 15rem;
+    }
+    
+    .kol-24-1, .kol-24-2{
+        display: flex;
+        margin: 0% 0% 0% 0%;
+    }
+
+    .li{
+        margin: 10px 37px 10px 37px;
+    }
+    #s-rune{
+        width: 8rem;
+        height: 10rem;
+    }
+    .sub{
+        text-align: left;
+        font-size: 2.3rem;
+    }
+    #sub-1{
+        margin-top: 0rem;
+    }
+    #R4{
+        width: 35%;
+        height: 23rem;
+        margin: 0 32.5%;
+        justify-content: center;
+    }
+    #sub-2{
+        margin: 5rem 0 10rem 35rem;
+    }   
+
+    .hr-none{
+        display: none;
+    }
+
+    .FQ{
+        display: inline-block;
+        text-align: left;
+        margin: 0rem;
+        padding: 0rem;
+    }
+    .FAQ, .FAQ-h{
+        text-align: left;
+        margin: 5rem;
+    }
+    .FAQ hr{
+        width: 85%;
+    }
+    #faq1, #faq2, #faq3, #faq4, #faq5{
+        font-size: 20px;
+        margin: 20px 0 0 20px;
+        padding: 0%;
+        text-align: left;
+        width: 70%!important;
+    }
+    .FAQ-h{
+        font-size: 5rem;
+        width: 70%;
+        margin: 5rem 0 5rem 5rem;
+    }
+    #faq1, #faq2, #faq3, #faq4, #faq5{
+        font-size: 1rem;
+        margin-top: 1rem;
+        text-align: left;
+        width: 50rem;
+    }
+
+    
+    footer{
+        text-align: center;
+        padding-left: 25%
+    }
+
+    footer, .f2{
+        display: inline-block;
+        font-size: 2rem;
+        margin: 1rem 0 0 0;
+    }
+
+    .hf{
+        margin: 0rem 0 5rem 0;
+    }
+
+    footer b{
+        margin-bottom: 10rem;
+    }
+
+    .f1{
+        margin-bottom: 3rem;
+    }
+
+    .f2{
+        display: grid;
+        grid-gap: 5rem;
+        margin-bottom: 0%;
+    }
+
+    #f2{
+        font-size: 2rem;
+    }
+
+}   
+
+
+@media (min-width: 416px) and (max-width: 1363px) {
+    
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    header{
+        display: flex;
+        margin: 0px;
+    }
+    
+    .head-1{
+        font-family: 'zen dots';
+        margin-right: 30rem;
+    }
+
+    .head-2{
+        display: flex;
+    }
+
+    #sideLink{
+        margin: 0;
+    }
+
+    #dropDown{
+        margin-right: 3rem;
+    }
+    .h1{
+        margin: 0 0rem 0 0%;
+        font-size: 11rem;
+        text-align:  center;
+        justify-content: center;
+        padding: 0%;
+    }
+
+    #R1{
+        width: 22rem;
+        height: 27rem;
+        margin-top: -16.5%;
+        margin-bottom: 50px;
+    }
+
+    #R2{
+        width: 10rem;
+        height: 12rem;
+        margin-top: 0px;
+        margin-left: 10%;
+        margin-bottom: 100px
+    }
+
+    #R3{
+        width: 9rem;
+        height: 11rem;
+        margin: 0 3% 12% 5%;
+    }
+
+    .bod-1{
+        justify-content: center;
+        margin: 0 3%;
+        text-align: center;
+        padding: 0%;
+    }
+
+    button{
+        justify-content: center;
+        width: 30%;
+        height: 4rem;
+        margin: 2rem 35%;
+        padding: 0;
+    }
+
+    .kol-h{
+        margin: 3rem 0 3rem 0;
+    }
+
+    #kol-24{
+        width: 16.6%;
+        height: 15rem;
+        position: relative;
+    }
+    
+    .kol-24-1, .kol-24-2{
+        display: flex;
+        margin: 0% 0% 0% 0%;
+    }
+
+    .li{
+        margin: 10px 37px 10px 37px;
+    }
+
+    #s-rune{
+        width: 5rem;
+        height: 7rem;
+    }
+    
+    .sub{
+        text-align: left;
+        font-size: 2.3rem;
+    }
+    #sub-1{
+        margin-top: 0rem;
+    }
+    #R4{
+        width: 35%;
+        height: 23rem;
+        margin: 0 32.5%;
+        justify-content: center;
+    }
+    #sub-2{
+        margin: 5rem 0 10rem 35rem;
+    }   
+
+    .hr-none{
+        display: none;
+    }
+
+    .FQ{
+        display: inline-block;
+        text-align: left;
+        margin: 0rem;
+        padding: 0rem;
+    }
+    .FAQ, .FAQ-h{
+        text-align: left;
+        margin: 5rem;
+    }
+    .FAQ hr{
+        width: 85%;
+    }
+    #faq1, #faq2, #faq3, #faq4, #faq5{
+        font-size: 20px;
+        margin: 20px 0 0 20px;
+        padding: 0%;
+        text-align: left;
+        width: 70%!important;
+    }
+    .FAQ-h{
+        font-size: 5rem;
+        width: 70%;
+        margin: 5rem 0 5rem 5rem;
+    }
+    #faq1, #faq2, #faq3, #faq4, #faq5{
+        font-size: 1rem;
+        margin-top: 1rem;
+        text-align: left;
+        width: 50rem;
+    }
+
+    
+    footer{
+        text-align: center;
+        padding-left: 25%
+    }
+
+    footer, .f2{
+        display: inline-block;
+        font-size: 2rem;
+        margin: 1rem 0 0 0;
+    }
+
+    .hf{
+        margin: 0rem 0 5rem 0;
+    }
+
+    footer b{
+        margin-bottom: 10rem;
+    }
+
+    .f1{
+        margin-bottom: 3rem;
+    }
+
+    .f2{
+        display: grid;
+        grid-gap: 5rem;
+        margin-bottom: 0%;
+    }
+
+    #f2{
+        font-size: 2rem;
+    }
+
+ 
+}
