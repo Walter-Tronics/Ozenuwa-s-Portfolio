@@ -86,14 +86,30 @@ header{
     background-color: #eeeeee;
     border: 1px solid;
 }
-
-#dropDown p#dropDownH{
+#dropDown2{
+    top: 0;
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    right: -100%;
+    padding: 20px 30px;
+    background-color: #eeeeee;
+    border: 1px solid;
+    transition: 1s;
+}
+#sideBarButton{
+    display: none;
+    right: 10px;
+    position: absolute;
+    font-size: 1.5rem;
+}
+#dropDown p#dropDownH,#dropDown2 p#dropDownH{
     font-family: zen_dots;
     font-size: 1.2rem;
     text-align: left;
 }
 
-#dropDown .p{
+#dropDown .p,#dropDown2 .p{
     display: flex;
     text-align: center;
     margin: 4rem 2rem 3rem 3rem;
@@ -112,7 +128,7 @@ header{
     font-size: .9rem;
 }
 
-#closeBtn{
+#closeBtn,#closeBtn2{
     font-size: 1.3rem;
     position: absolute;
     top: 20px;
@@ -793,4 +809,14 @@ footer{
     }
 
  
+}
+
+/*The showing and hiding of the side bar on small and larger screens*/
+@media (max-width: 800px){
+    #sideLink{
+        display: none;
+    }
+    #sideBarButton{
+        display: block;
+    }
 }
